@@ -25,6 +25,6 @@ public class t1Controller {
 	public String Hello(@RequestParam(name="location", required=false, defaultValue="Moon" ) String paikka ,
 	@RequestParam(name="name", required=false, defaultValue="dear friend" ) String nimi )
 {
-		return "Welcome to the  "+ paikka + " "+ nimi +"!";
+		return "Welcome to the  "+ paikka + " "+ nimi +"!!";
 	}
 }
